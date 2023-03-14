@@ -1,31 +1,31 @@
 import "./Filme.css";
 
 const filmes = [{
-  "nome": "Vingadores",
+  "nome": "attack on titan",
   "duracao": "2H30",
-  "foto": "vingadores.png",
-  "ano": 2010,
-  "genero": "Ação/Nerd",
-  "descricao": "Filme da Marvel com super-heróis",
-  "nota": 5
-},
-{
-  "nome": "Vingadores 2",
-  "duracao": "2H30",
-  "foto": "vingadores.png",
+  "foto": "aot.png",
   "ano": 2014,
-  "genero": "Ação/Nerd",
-  "descricao": "Filme da Marvel com super-heróis",
-  "nota": 5
+  "genero": "Ação",
+  "descricao": "Anime",
+  "nota": 7
 },
 {
-  "nome": "Vingadores 3",
-  "duracao": "2H30",
-  "foto": "vingadores.png",
+  "nome": "Avatar 2",
+  "duracao": "3H",
+  "foto": "avatar2.png",
+  "ano": 2023,
+  "genero": "Ação",
+  "descricao": "filme do avatar",
+  "nota": 8
+},
+{
+  "nome": " Jujutsu",
+  "duracao": "2h",
+  "foto": "jujutsu.png",
   "ano": 2015,
-  "genero": "Ação/Nerd",
-  "descricao": "Filme da Marvel com super-heróis",
-  "nota": 5
+  "genero": "Anime",
+  "descricao": "Anime ",
+  "nota": 10
 }
 ]
 
@@ -44,13 +44,7 @@ export default function Filme() {
                 <p>{filme.duracao}</p>
                 <p>{filme.genero}</p>
                 <p>{filme.nota}</p>
-                <a
-                  href={`/detalhes/${filme.nome}`}
-                >
-                  <div className="btn btn-primary">
-                    Detalhes
-                  </div>
-                </a>
+                <a href="#" className="btn btn-primary">trailer</a>
               </div>
             </div>
           </div>

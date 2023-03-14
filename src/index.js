@@ -1,15 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// não colocar boot dps se não vai sobrepor os componentes
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 
+
+
 // Componentes
 import App from './App';
+import Filme from './components/Filme';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Title from './components/Title';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <App />
+    <App />
+    {/* <Header />
+    <Title />
+    <Filme />
+    <Footer /> */}
+
+
+
+
   </React.StrictMode>
 );
 

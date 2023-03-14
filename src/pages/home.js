@@ -1,9 +1,13 @@
 import React from 'react';
-import Filme from './../components/Filme/index';
 
 function Home() {
     return (
-        <Filme />
-    )
+
+        <div>
+            home
+        </div>
+
+    );
 }
+
 export default Home;
