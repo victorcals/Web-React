@@ -1,11 +1,11 @@
 import React from 'react';
- 
-function Planos(){
+
+function Planos() {
     return (
-        <div>
-            <h1>Planos</h1>         
+        < div class="container" >
+            <h1>Planos</h1>
         </div>
-    )   
+    )
 }
- 
+
 export default Planos;
