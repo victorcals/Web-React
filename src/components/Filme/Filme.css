@@ -1,0 +1,38 @@
+/* .card {
+
+    width: 400px;
+    height: 400px;
+    background: #f8f8f8;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    overflow: scroll;
+
+    border-radius: 10px;
+}
+
+.card div {
+
+    z-index: 1;
+    color: rgb(31, 9, 9);
+    font-size: 2em;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 200%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+}
+
+
+
+.card:hover:before {
+    background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+    animation: rotBGimg 3.5s linear infinite;
+} */
