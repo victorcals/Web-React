@@ -7,6 +7,9 @@ function About() {
     return (
         < div class="container" >
             <h1>Ola usuário {name} </h1>
+
+
+            <h3></h3>
             {/* <Footer /> */}
         </div >
     )

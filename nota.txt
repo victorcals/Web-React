@@ -1,0 +1,14 @@
+Aplique o estilo de menu no App.js (utilize o bootstrap). → ok
+
+Mova o conteúdo do componente filmes para a página home → ok 
+
+Retire a descrição e nota do componente filmes. → ok
+
+
+Crie uma página detalhes com um if/else para mostrar os detalhes(nome, descrição e nota) do filme (se ‘vingadores’ -> descricao ->array[0].filmes) → ok 
+
+
+Crie uma página com os planos
+
+
+Termine a página sobre com uma mensagem de boas vindas para ousuário

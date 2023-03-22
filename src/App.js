@@ -5,6 +5,7 @@ import About from './pages/about'
 import Planos from './pages/planos';
 import Detalhes from './pages/detalhes';
 import Footer from '../src/components/Footer/index';
+import NotFound from './pages/NotFound';
 
 
 
@@ -25,11 +26,10 @@ function App() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav">
 
-              <Link className="nav-item nav-link" to='/'>Home</Link>
-              <Link className="nav-item nav-link" to='/plano'>Plano</Link>
-              <Link className="nav-item nav-link" to='/sobre'>Sobre</Link>
+              <Link className="nav-item nav-link" to='/'>Pagina Principal</Link>
+              <Link className="nav-item nav-link" to='/planos'>Assinar Planos</Link>
+              <Link className="nav-item nav-link" to='/about'>Sobre o Site</Link>
 
-              {/* <Link to='/'>aa</Link> */}
 
             </div>
           </div>
@@ -37,11 +37,17 @@ function App() {
       </div>
 
       <Routes>
+
         <Route path='/' element={<Home />} />
-        <Route path='about/:name' element={<About />} />
+
+        <Route path='about' element={<About />} />
+        {/* <Route path='about/:name' element={<About />} /> */}
+
+
+
         <Route path='planos' element={<Planos />} />z
         <Route path='detalhes/:filme' element={<Detalhes />} />
-        <Route path='*' element={<h1>Pagina não encontrada</h1>} />
+        <Route path='*' element={<NotFound />} />
 
         {/* Criar uma pagina não encontrada
         terminar os estilos das paginas
