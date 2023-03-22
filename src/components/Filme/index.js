@@ -2,19 +2,19 @@ import "./Filme.css";
 
 const filmes = [{
   "nome": "attack on titan",
-  "duracao": "2H30",
+  "duracao": " Duração 2H30",
   "foto": "aot.png",
 
 },
 {
   "nome": "Avatar 2",
-  "duracao": "3H",
+  "duracao": "Duração 3H",
   "foto": "avatar2.png",
 
 },
 {
-  "nome": " Jujutsu",
-  "duracao": "2h",
+  "nome": " Jujutsu Kaisen",
+  "duracao": " Duração 2h",
   "foto": "jujutsu.png",
 }
 ]
@@ -28,7 +28,7 @@ export default function Filme() {
             <div className="card">
               <img src={'/assets/images/' + filme.foto} alt={filme.nome} className="card-img-top" />
               <div className="card-body">
-                <h5 className="card-title">{filme.nome} ({filme.ano}) </h5>
+                <h5 className="card-title">{filme.nome}  </h5>
 
                 <p>{filme.duracao}</p>
 
