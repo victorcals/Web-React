@@ -1,4 +1,5 @@
 import React from 'react';
+import "./JinPlanos.css";
 import { useParams } from 'react-router-dom';
 
 
@@ -29,18 +30,24 @@ function Contratar() {
 
     return (
         < div cals="container" >
-            <h1> Plano escolhido: {val}</h1>
+            <h1 className='pagamento'> Plano escolhido: {val}</h1>
             <div>
 
                 {(() => {
                     if (val == 'Basico') {
                         return (
-                            <div>
-                                <h3> {valores[0].nome}</h3>
-                                <h4> {valores[0].valor}</h4>
-                                <h4> {valores[0].disponivel}</h4>
-                                <h4> {valores[0].Propagandas}</h4>
+                            <div className='pagamento'>
+                                <form >
 
+                                    <h4> {valores[0].valor}</h4>
+                                    <h4> {valores[0].disponivel}</h4>
+                                    <h4> {valores[0].Propagandas}</h4>
+
+                                    <button>
+                                        Realizar pagamento
+                                    </button>
+
+                                </form>
 
                             </div>
                         )

@@ -7,6 +7,7 @@ import Detalhes from './pages/detalhes';
 import Footer from '../src/components/Footer/index';
 import NotFound from './pages/NotFound';
 import Contratar from './pages/contratar';
+import Pagamento from './icon/pagamento';
 
 
 
@@ -50,6 +51,7 @@ function App() {
         <Route path='planos' element={<Planos />} />z
         <Route path='detalhes/:filme' element={<Detalhes />} />
         <Route path='contratar/:val' element={<Contratar />} />
+        <Route path='pagamento' element={<Pagamento />} />
         <Route path='*' element={<NotFound />} />
 
         {/* Criar uma pagina não encontrada
