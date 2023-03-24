@@ -1,6 +1,7 @@
 import React from 'react';
 import "./JinPlanos.css";
 import { useParams } from 'react-router-dom';
+import Pagamento from '../icon/pagamento';
 
 
 const valores = [{
@@ -30,7 +31,7 @@ function Contratar() {
 
     return (
         < div cals="container" >
-            <h1 className='pagamento'> Plano escolhido: {val}</h1>
+            <h1 className='pagamento'></h1>
             <div>
 
                 {(() => {
@@ -38,15 +39,7 @@ function Contratar() {
                         return (
                             <div className='pagamento'>
                                 <form >
-
-                                    <h4> {valores[0].valor}</h4>
-                                    <h4> {valores[0].disponivel}</h4>
-                                    <h4> {valores[0].Propagandas}</h4>
-
-                                    <button>
-                                        Realizar pagamento
-                                    </button>
-
+                                    <Pagamento />
                                 </form>
 
                             </div>
@@ -55,20 +48,14 @@ function Contratar() {
                     else if (val == 'Medio') {
                         return (
                             <div>
-                                <h3> {valores[0].nome}</h3>
-                                <h4> {valores[0].valor}</h4>
-                                <h4> {valores[0].disponivel}</h4>
-                                <h4> {valores[0].Propagandas}</h4>
+                                <Pagamento />
                             </div>
                         )
                     }
                     else {
                         return (
                             <div>
-                                <h3> {valores[0].nome}</h3>
-                                <h4> {valores[0].valor}</h4>
-                                <h4> {valores[0].disponivel}</h4>
-                                <h4> {valores[0].Propagandas}</h4>
+                                <Pagamento />
                             </div>
                         )
                     }

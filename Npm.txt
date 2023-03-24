@@ -1,4 +1,5 @@
 Pacotes
+
 Npm i
 
 npm do bootstrap
@@ -7,3 +8,5 @@ npm install mdb-react-ui-kit
 npm install @popperjs/core@latest
 
 npm install react-popper
+
+npm update @popperjs/core
