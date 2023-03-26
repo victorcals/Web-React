@@ -11,33 +11,6 @@ npm install
 
 ```
 
-```
-npm i bootstrap@5.3.0-alpha1
-
-```
-
-```
-npm install mdb-react-ui-kit
-
-```
-
-```
-npm i bootstrap@5.3.0-alpha1
-
-```
-
-```
-npm install @popperjs/core@latest
-
-```
-
-```
-npm install react-popper
-
-```
-```
-npm update @popperjs/core
-```
  :construction:
 
 ## Compiles and hot-reloads for development
