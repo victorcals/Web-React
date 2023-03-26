@@ -9,7 +9,8 @@ function About() {
             <h1>Ola usuário {name} </h1>
 
 
-            <h3></h3>
+
+            <h3>O Nyx-Filmes é um serviço de streaming por assinatura que permite assistir a séries e filmes em um aparelho conectado à internet.</h3>
             {/* <Footer /> */}
         </div >
     )

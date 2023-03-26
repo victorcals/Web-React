@@ -48,7 +48,7 @@ function App() {
 
 
 
-        <Route path='planos' element={<Planos />} />z
+        <Route path='planos' element={<Planos />} />
         <Route path='detalhes/:filme' element={<Detalhes />} />
         <Route path='contratar/:val' element={<Contratar />} />
         <Route path='pagamento' element={<Pagamento />} />
